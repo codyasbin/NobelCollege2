@@ -55,7 +55,7 @@ window.logout = function() {
     signOut(auth)
         .then(() => {
             alert('Logout successful!');
-            window.location.href = 'index.php'; // Redirect to login.php after successful logout
+            window.location.href = 'index.html'; // Redirect to login.php after successful logout
         })
         .catch((error) => {
             alert(`Error: ${error.message}`);
